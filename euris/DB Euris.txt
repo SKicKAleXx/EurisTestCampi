@@ -1,0 +1,16 @@
+create database eurisTest;
+
+use eurisTest;
+
+create table products
+(
+id int primary key auto_increment,
+product varchar(100),
+price varchar(30)
+);
+
+insert into products(product, price) values
+("PS5 Digital Edition","280p, 12s, 5d"),
+("PS5 Standard Edition", "380p, 10s, 8d"),
+("MacBook Pro", "500p, 2s, 10d"),
+("TV Samsung", "240p, 5s, 0d"); 
